@@ -21,9 +21,11 @@
 
 # Release Notes
 
-### 1.1.4_pr45 (Jun 21, 2019)
+### 1.1.4_fixes (Jun 26, 2019)
 * forked 1.1.4 and merged [pull request 45](https://github.com/apache/cordova-plugin-wkwebview-engine/pull/45)
     * [CB-13987](https://issues.apache.org/jira/browse/CB-13987) (ios) Fix WKWebView doesn't layout properly at launch on iPhone X
+* added a workaround for viewport shift bug in iOS 12 / XCode 10
+    * https://github.com/kozmanbalint/cordova-plugin-wkwebview-engine/commit/644fc16cff715bc4f7ad6fc2073d9e3eba682c51
 
 ### 1.1.4 (Nov 06, 2017)
 * added missing license header
